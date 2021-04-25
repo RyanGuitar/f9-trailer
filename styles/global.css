@@ -1,0 +1,39 @@
+html,
+body {
+  height:100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.movie-icon:hover, .back-icon:hover {
+  background-color: black;
+}
+
+.movie-icon {
+  position:fixed;
+  left:10px;
+  bottom:30px;
+}
+
+.music-icon {
+    position:fixed;
+    left:10px;
+    bottom:80px;
+  }
+
+.back-icon {
+  position:fixed;
+  right:5px;
+  bottom:30px;
+}
+
+
