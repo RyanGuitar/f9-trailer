@@ -14,8 +14,12 @@ a {
   box-sizing: border-box;
 }
 
-.movie-icon:hover, .back-icon:hover {
-  background-color: black;
+.movie-icon:hover, .back-icon:hover, .music-icon:hover {
+  background-color: gray;
+}
+
+.movie-icon, .music-icon, .back-icon {
+  padding:5px 5px 0 5px;
 }
 
 .movie-icon {
